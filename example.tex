@@ -1,0 +1,84 @@
+\pdfoutput=1
+\documentclass[11pt, a4paper, logo]{stanford}
+
+\usepackage[authoryear, sort&compress, round]{natbib}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{lipsum}
+
+\definecolor{accentcolor}{HTML}{175E54}
+\hypersetup{
+	colorlinks=true,
+	citecolor=accentcolor,
+	linkcolor=accentcolor,
+	urlcolor=accentcolor
+}
+
+\title{Stanford LaTeX Template: Example Document}
+
+\author{Your Name\\
+Stanford University\\
+\texttt{yourname@stanford.edu}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is an example document demonstrating the Stanford LaTeX template. The template is based on a clean, professional academic paper format with Stanford branding.
+\end{abstract}
+
+\tableofcontents
+
+\section{Introduction}
+
+\lipsum[1-2]
+
+\subsection{Background}
+
+\lipsum[3]
+
+\section{Methods}
+
+Here is an example equation:
+\begin{equation}
+E = mc^2
+\end{equation}
+
+\lipsum[4]
+
+\section{Results}
+
+\begin{table}[h]
+\centering
+\caption{Example results table}
+\label{tab:example}
+\begin{tabular}{lcc}
+\toprule
+Method & Accuracy & Time (s) \\
+\midrule
+Method A & 0.95 & 10.2 \\
+Method B & 0.87 & 5.3 \\
+Method C & 0.92 & 7.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\lipsum[6]
+
+\section{Discussion}
+
+\lipsum[7-8]
+
+\section{Conclusion}
+
+\lipsum[9]
+
+\section*{Acknowledgments}
+
+This template is adapted from the Google DeepMind LaTeX template and customized for Stanford University documents.
+
+\end{document}

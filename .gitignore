@@ -1,0 +1,49 @@
+## Core LaTeX auxiliary files
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build directories
+build/
+out/
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+## Keep example PDF but ignore other PDFs during development
+*.pdf
+!stanford_logo-eps-converted-to.pdf
+!example.pdf
