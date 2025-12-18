@@ -1,5 +1,10 @@
 # Stanford LaTeX Template
 
+[![Open in Overleaf][#overleaf-badge]][#github-repo-zip]
+
+[#overleaf-badge]: https://tinyurl.com/overleaf-badge
+[#github-repo-zip]: https://www.overleaf.com/docs?snip_uri=https://github.com/ProKil/stanford-latex-template/archive/refs/heads/main.zip
+
 A clean, professional LaTeX template for Stanford University academic papers and technical reports.
 
 ## Features
